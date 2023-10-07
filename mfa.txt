@@ -1,0 +1,17 @@
+# Ask the user for their score
+score = int(input("Enter your score: "))
+
+# Define the grading system
+if 70 <= score <= 100:
+    grade = "A"
+elif 60 <= score <= 69:
+    grade = "B"
+elif 50 <= score <= 59:
+    grade = "C"
+elif 40 <= score <= 49:
+    grade = "D"
+else:
+    grade = "Fail"
+
+# Print the grade
+print("Your grade is:", grade)
